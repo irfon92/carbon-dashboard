@@ -289,9 +289,16 @@
                         <div class="p-4 hover:bg-gray-50">
                             <div class="flex justify-between items-start">
                                 <div class="flex-1">
-                                    <h4 class="text-sm font-medium text-gray-900">${commitment.company}</h4>
+                                    <div class="flex items-center gap-2">
+                                        <h4 class="text-sm font-medium text-gray-900">${commitment.company}</h4>
+                                        ${commitment.source_url && !commitment.source_url.includes('example.com') ? 
+                                            `<a href="${commitment.source_url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-xs">🔗 Source</a>` : 
+                                            ''
+                                        }
+                                    </div>
                                     <p class="text-sm text-gray-600 mt-1">${commitment.commitment_type} ${commitment.target_year ? `by ${commitment.target_year}` : ''}</p>
                                     <p class="text-xs text-gray-500 mt-2">${commitment.dovu_opportunity}</p>
+                                    ${commitment.carbon_volume_mentioned ? `<p class="text-xs text-blue-600 mt-1">📊 ${commitment.carbon_volume_mentioned}</p>` : ''}
                                 </div>
                                 <div class="flex flex-col items-end">
                                     <span class="relevance-${getRelevanceClass(commitment.relevance_score)} px-2 py-1 text-xs rounded-full">
@@ -330,11 +337,20 @@
                         <div class="p-4 hover:bg-gray-50">
                             <div class="flex justify-between items-start">
                                 <div class="flex-1">
-                                    <h4 class="text-sm font-medium text-gray-900">${event.company}</h4>
+                                    <div class="flex items-center gap-2">
+                                        <h4 class="text-sm font-medium text-gray-900">${event.company}</h4>
+                                        ${event.source_url && !event.source_url.includes('example.com') ? 
+                                            `<a href="${event.source_url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-xs">🔗 Source</a>` : 
+                                            ''
+                                        }
+                                    </div>
                                     <p class="text-sm text-gray-600 mt-1">${event.funding_type} ${event.amount || ''}</p>
                                     <p class="text-xs text-gray-500 mt-1">${event.business_model} • ${event.sector}</p>
-                                    ${event.competitive_threat > 0.6 ? '<span class="text-xs text-red-600 font-medium">⚠️ Competitive Threat</span>' : ''}
-                                    ${event.partnership_opportunity > 0.6 ? '<span class="text-xs text-purple-600 font-medium">🤝 Partnership Opp</span>' : ''}
+                                    ${event.investors && event.investors.length > 0 ? `<p class="text-xs text-blue-600 mt-1">💰 ${event.investors.join(', ')}</p>` : ''}
+                                    <div class="flex gap-2 mt-2">
+                                        ${event.competitive_threat > 0.6 ? '<span class="text-xs text-red-600 font-medium">⚠️ Competitive Threat</span>' : ''}
+                                        ${event.partnership_opportunity > 0.6 ? '<span class="text-xs text-purple-600 font-medium">🤝 Partnership Opp</span>' : ''}
+                                    </div>
                                 </div>
                                 <div class="flex flex-col items-end">
                                     <span class="relevance-${getRelevanceClass(event.dovu_relevance)} px-2 py-1 text-xs rounded-full">

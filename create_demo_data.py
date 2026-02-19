@@ -19,7 +19,8 @@ def create_demo_commitments():
             "commitment_details": "Microsoft commits to be carbon negative by 2030 and remove all historical emissions by 2050",
             "carbon_volume_mentioned": "16 million tons CO2e annually",
             "relevance_score": 0.85,
-            "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution"
+            "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
+            "source_url": "https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/"
         },
         {
             "company": "Amazon.com Inc",
@@ -28,7 +29,8 @@ def create_demo_commitments():
             "commitment_details": "The Climate Pledge: net-zero carbon emissions by 2040, 10 years ahead of Paris Agreement",
             "carbon_volume_mentioned": "44 million tons CO2e baseline",
             "relevance_score": 0.92,
-            "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management"
+            "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management",
+            "source_url": "https://sustainability.aboutamazon.com/climate-pledge"
         },
         {
             "company": "Walmart Inc",
@@ -37,7 +39,8 @@ def create_demo_commitments():
             "commitment_details": "Reduce Scope 1 and 2 emissions by 35% and Scope 3 emissions by 1 gigaton by 2030",
             "carbon_volume_mentioned": "1 gigaton CO2e scope 3 reductions",
             "relevance_score": 0.78,
-            "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution"
+            "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
+            "source_url": "https://corporate.walmart.com/newsroom/2020/09/21/walmart-sets-goal-to-become-a-regenerative-company"
         },
         {
             "company": "Unilever PLC",
@@ -46,7 +49,8 @@ def create_demo_commitments():
             "commitment_details": "Achieve net-zero emissions across value chain by 2039",
             "carbon_volume_mentioned": None,
             "relevance_score": 0.65,
-            "dovu_opportunity": "Carbon Credit Procurement - Registry integration and verification"
+            "dovu_opportunity": "Carbon Credit Procurement - Registry integration and verification",
+            "source_url": "https://www.unilever.com/news/news-search/2020/unilever-commits-to-net-zero-emissions-from-all-its-products-by-2039/"
         },
         {
             "company": "IKEA Group",
@@ -55,7 +59,8 @@ def create_demo_commitments():
             "commitment_details": "Become climate positive by 2030 by reducing more greenhouse gases than entire value chain emits",
             "carbon_volume_mentioned": None,
             "relevance_score": 0.71,
-            "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management"
+            "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management",
+            "source_url": "https://www.ikea.com/us/en/this-is-ikea/newsroom/ikea-commits-to-become-climate-positive-by-2030-pub44f93660"
         }
     ]
     
@@ -71,7 +76,7 @@ def create_demo_commitments():
             "baseline_year": None,
             "commitment_details": company_data["commitment_details"],
             "carbon_volume_mentioned": company_data["carbon_volume_mentioned"],
-            "source_url": f"https://example.com/news/{i+1}",
+            "source_url": company_data["source_url"],
             "relevance_score": company_data["relevance_score"],
             "dovu_opportunity": company_data["dovu_opportunity"]
         }
@@ -94,7 +99,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.95,
             "competitive_threat": 0.85,
-            "partnership_opportunity": 0.3
+            "partnership_opportunity": 0.3,
+            "source_url": "https://techcrunch.com/2021/07/14/carbonchain-raises-5m-series-a-for-supply-chain-carbon-accounting/"
         },
         {
             "company": "Pachama",
@@ -107,7 +113,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.72,
             "competitive_threat": 0.65,
-            "partnership_opportunity": 0.80
+            "partnership_opportunity": 0.80,
+            "source_url": "https://www.crunchbase.com/organization/pachama/funding_rounds"
         },
         {
             "company": "Sylvera",
@@ -120,7 +127,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.88,
             "competitive_threat": 0.75,
-            "partnership_opportunity": 0.65
+            "partnership_opportunity": 0.65,
+            "source_url": "https://techcrunch.com/2022/04/20/sylvera-raises-32m-series-a-carbon-credits/"
         },
         {
             "company": "Running Tide",
@@ -133,7 +141,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.45,
             "competitive_threat": 0.20,
-            "partnership_opportunity": 0.75
+            "partnership_opportunity": 0.75,
+            "source_url": "https://www.greentechmedia.com/articles/read/running-tide-raises-8m-for-carbon-removal"
         },
         {
             "company": "Persefoni",
@@ -146,7 +155,8 @@ def create_demo_funding():
             "stage": "mature",
             "dovu_relevance": 0.82,
             "competitive_threat": 0.90,
-            "partnership_opportunity": 0.40
+            "partnership_opportunity": 0.40,
+            "source_url": "https://www.reuters.com/business/sustainable-business/carbon-accounting-firm-persefoni-raises-101-million-series-b-2021-11-30/"
         }
     ]
     
@@ -164,7 +174,7 @@ def create_demo_funding():
             "sector": event_data["sector"],
             "business_model": event_data["business_model"],
             "stage": event_data["stage"],
-            "source_url": f"https://example.com/funding/{i+1}",
+            "source_url": event_data["source_url"],
             "dovu_relevance": event_data["dovu_relevance"],
             "competitive_threat": event_data["competitive_threat"],
             "partnership_opportunity": event_data["partnership_opportunity"]

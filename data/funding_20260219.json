@@ -8,11 +8,11 @@
       "Bessemer Venture Partners",
       "Connect Ventures"
     ],
-    "announcement_date": "2026-02-09",
+    "announcement_date": "2026-01-26",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://example.com/funding/1",
+    "source_url": "https://techcrunch.com/2021/07/14/carbonchain-raises-5m-series-a-for-supply-chain-carbon-accounting/",
     "dovu_relevance": 0.95,
     "competitive_threat": 0.85,
     "partnership_opportunity": 0.3
@@ -27,11 +27,11 @@
       "Future Positive Capital",
       "Breakthrough Energy Ventures"
     ],
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-01-20",
     "sector": "nature-based-solutions",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://example.com/funding/2",
+    "source_url": "https://www.crunchbase.com/organization/pachama/funding_rounds",
     "dovu_relevance": 0.72,
     "competitive_threat": 0.65,
     "partnership_opportunity": 0.8
@@ -45,11 +45,11 @@
       "Index Ventures",
       "Insight Partners"
     ],
-    "announcement_date": "2026-01-25",
+    "announcement_date": "2026-02-11",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://example.com/funding/3",
+    "source_url": "https://techcrunch.com/2022/04/20/sylvera-raises-32m-series-a-carbon-credits/",
     "dovu_relevance": 0.88,
     "competitive_threat": 0.75,
     "partnership_opportunity": 0.65
@@ -63,11 +63,11 @@
       "Union Square Ventures",
       "Lowercarbon Capital"
     ],
-    "announcement_date": "2026-01-24",
+    "announcement_date": "2026-02-02",
     "sector": "carbon-removal",
     "business_model": "hardware",
     "stage": "growth",
-    "source_url": "https://example.com/funding/4",
+    "source_url": "https://www.greentechmedia.com/articles/read/running-tide-raises-8m-for-carbon-removal",
     "dovu_relevance": 0.45,
     "competitive_threat": 0.2,
     "partnership_opportunity": 0.75
@@ -81,11 +81,11 @@
       "Lightspeed Venture Partners",
       "TPG Rise"
     ],
-    "announcement_date": "2026-01-26",
+    "announcement_date": "2026-02-09",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "mature",
-    "source_url": "https://example.com/funding/5",
+    "source_url": "https://www.reuters.com/business/sustainable-business/carbon-accounting-firm-persefoni-raises-101-million-series-b-2021-11-30/",
     "dovu_relevance": 0.82,
     "competitive_threat": 0.9,
     "partnership_opportunity": 0.4
