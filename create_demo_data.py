@@ -99,8 +99,7 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.95,
             "competitive_threat": 0.85,
-            "partnership_opportunity": 0.3,
-            "source_url": "#"
+            "partnership_opportunity": 0.3
         },
         {
             "company": "ForestLink",
@@ -113,8 +112,7 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.72,
             "competitive_threat": 0.65,
-            "partnership_opportunity": 0.80,
-            "source_url": "#"
+            "partnership_opportunity": 0.80
         },
         {
             "company": "CarbonTracker Pro",
@@ -127,8 +125,7 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.88,
             "competitive_threat": 0.75,
-            "partnership_opportunity": 0.65,
-            "source_url": "#"
+            "partnership_opportunity": 0.65
         },
         {
             "company": "OceanCarbon",
@@ -141,8 +138,7 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.45,
             "competitive_threat": 0.20,
-            "partnership_opportunity": 0.75,
-            "source_url": "#"
+            "partnership_opportunity": 0.75
         },
         {
             "company": "EmissionIQ",
@@ -155,8 +151,7 @@ def create_demo_funding():
             "stage": "mature",
             "dovu_relevance": 0.82,
             "competitive_threat": 0.90,
-            "partnership_opportunity": 0.40,
-            "source_url": "#"
+            "partnership_opportunity": 0.40
         }
     ]
     
@@ -174,7 +169,7 @@ def create_demo_funding():
             "sector": event_data["sector"],
             "business_model": event_data["business_model"],
             "stage": event_data["stage"],
-            "source_url": event_data["source_url"],
+            "source_url": event_data.get("source_url", ""),  # Handle missing source_url gracefully
             "dovu_relevance": event_data["dovu_relevance"],
             "competitive_threat": event_data["competitive_threat"],
             "partnership_opportunity": event_data["partnership_opportunity"]

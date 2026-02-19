@@ -151,7 +151,30 @@ class DashboardData:
             
             # Calculate key metrics safely
             today = datetime.now().date()
+            six_months_ago = today - timedelta(days=180)  # 6 months filter
             week_ago = today - timedelta(days=7)
+            
+            # Filter all data to last 6 months
+            filtered_commitments = []
+            filtered_funding = []
+            
+            for c in commitments:
+                try:
+                    if datetime.strptime(c['announcement_date'], '%Y-%m-%d').date() >= six_months_ago:
+                        filtered_commitments.append(c)
+                except (KeyError, ValueError, TypeError):
+                    continue
+                    
+            for f in funding:
+                try:
+                    if datetime.strptime(f['announcement_date'], '%Y-%m-%d').date() >= six_months_ago:
+                        filtered_funding.append(f)
+                except (KeyError, ValueError, TypeError):
+                    continue
+            
+            # Use filtered data for calculations
+            commitments = filtered_commitments
+            funding = filtered_funding
             
             recent_commitments = []
             recent_funding = []

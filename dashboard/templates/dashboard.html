@@ -301,7 +301,7 @@
                                 <div class="flex-1">
                                     <div class="flex items-center gap-2">
                                         <h4 class="text-sm font-medium">${alert.title}</h4>
-                                        ${alert.source_url && !alert.source_url.includes('example.com') ? 
+                                        ${alert.source_url && alert.source_url.trim() && !alert.source_url.includes('example.com') && !alert.source_url.includes('#') ? 
                                             `<a href="${alert.source_url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-xs">🔗 Source</a>` : 
                                             ''
                                         }
@@ -343,7 +343,7 @@
                                 <div class="flex-1">
                                     <div class="flex items-center gap-2">
                                         <h4 class="text-sm font-medium text-gray-900">${commitment.company}</h4>
-                                        ${commitment.source_url && !commitment.source_url.includes('example.com') ? 
+                                        ${commitment.source_url && commitment.source_url.trim() && !commitment.source_url.includes('example.com') && !commitment.source_url.includes('#') ? 
                                             `<a href="${commitment.source_url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-xs">🔗 Source</a>` : 
                                             ''
                                         }
@@ -394,7 +394,7 @@
                                 <div class="flex-1">
                                     <div class="flex items-center gap-2">
                                         <h4 class="text-sm font-medium text-gray-900">${event.company}</h4>
-                                        ${event.source_url && !event.source_url.includes('example.com') ? 
+                                        ${event.source_url && event.source_url.trim() && !event.source_url.includes('example.com') && !event.source_url.includes('#') ? 
                                             `<a href="${event.source_url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-xs">🔗 Source</a>` : 
                                             ''
                                         }
