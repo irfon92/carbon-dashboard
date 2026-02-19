@@ -99,7 +99,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.95,
             "competitive_threat": 0.85,
-            "partnership_opportunity": 0.3
+            "partnership_opportunity": 0.3,
+            "source_url": "https://techcrunch.com/2026/01/24/carbonscope-raises-12m-series-b-for-enterprise-carbon-tracking/"
         },
         {
             "company": "ForestLink",
@@ -112,7 +113,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.72,
             "competitive_threat": 0.65,
-            "partnership_opportunity": 0.80
+            "partnership_opportunity": 0.80,
+            "source_url": "https://www.reuters.com/business/sustainable-business/forestlink-secures-25m-series-a-nature-based-carbon-solutions-2026-02-18/"
         },
         {
             "company": "CarbonTracker Pro",
@@ -125,7 +127,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.88,
             "competitive_threat": 0.75,
-            "partnership_opportunity": 0.65
+            "partnership_opportunity": 0.65,
+            "source_url": "https://www.crunchbase.com/organization/carbontracker-pro/funding_rounds/funding_round"
         },
         {
             "company": "OceanCarbon",
@@ -138,7 +141,8 @@ def create_demo_funding():
             "stage": "growth",
             "dovu_relevance": 0.45,
             "competitive_threat": 0.20,
-            "partnership_opportunity": 0.75
+            "partnership_opportunity": 0.75,
+            "source_url": "https://www.greentechmedia.com/articles/read/oceancarbon-raises-15m-series-a-marine-carbon-removal"
         },
         {
             "company": "EmissionIQ",
@@ -151,7 +155,8 @@ def create_demo_funding():
             "stage": "mature",
             "dovu_relevance": 0.82,
             "competitive_threat": 0.90,
-            "partnership_opportunity": 0.40
+            "partnership_opportunity": 0.40,
+            "source_url": "https://www.bloomberg.com/news/articles/2026-02-11/emissioniq-raises-85m-series-c-at-750m-valuation-carbon-accounting"
         }
     ]
     
@@ -169,7 +174,7 @@ def create_demo_funding():
             "sector": event_data["sector"],
             "business_model": event_data["business_model"],
             "stage": event_data["stage"],
-            "source_url": event_data.get("source_url", ""),  # Handle missing source_url gracefully
+            "source_url": event_data["source_url"],
             "dovu_relevance": event_data["dovu_relevance"],
             "competitive_threat": event_data["competitive_threat"],
             "partnership_opportunity": event_data["partnership_opportunity"]

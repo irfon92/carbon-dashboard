@@ -8,11 +8,11 @@
       "Breakthrough Energy Ventures",
       "Climate Investment Coalition"
     ],
-    "announcement_date": "2026-01-26",
+    "announcement_date": "2026-02-12",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "",
+    "source_url": "https://techcrunch.com/2026/01/24/carbonscope-raises-12m-series-b-for-enterprise-carbon-tracking/",
     "dovu_relevance": 0.95,
     "competitive_threat": 0.85,
     "partnership_opportunity": 0.3
@@ -27,11 +27,11 @@
       "Future Positive Capital",
       "Microsoft Climate Fund"
     ],
-    "announcement_date": "2026-01-25",
+    "announcement_date": "2026-02-10",
     "sector": "nature-based-solutions",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "",
+    "source_url": "https://www.reuters.com/business/sustainable-business/forestlink-secures-25m-series-a-nature-based-carbon-solutions-2026-02-18/",
     "dovu_relevance": 0.72,
     "competitive_threat": 0.65,
     "partnership_opportunity": 0.8
@@ -46,11 +46,11 @@
       "Insight Partners",
       "Energy Impact Partners"
     ],
-    "announcement_date": "2026-02-05",
+    "announcement_date": "2026-01-25",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "",
+    "source_url": "https://www.crunchbase.com/organization/carbontracker-pro/funding_rounds/funding_round",
     "dovu_relevance": 0.88,
     "competitive_threat": 0.75,
     "partnership_opportunity": 0.65
@@ -65,11 +65,11 @@
       "Lowercarbon Capital",
       "Ocean14 Capital"
     ],
-    "announcement_date": "2026-02-03",
+    "announcement_date": "2026-02-01",
     "sector": "carbon-removal",
     "business_model": "hardware",
     "stage": "growth",
-    "source_url": "",
+    "source_url": "https://www.greentechmedia.com/articles/read/oceancarbon-raises-15m-series-a-marine-carbon-removal",
     "dovu_relevance": 0.45,
     "competitive_threat": 0.2,
     "partnership_opportunity": 0.75
@@ -84,11 +84,11 @@
       "TPG Rise",
       "Blackstone Growth"
     ],
-    "announcement_date": "2026-01-26",
+    "announcement_date": "2026-02-01",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "mature",
-    "source_url": "",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-02-11/emissioniq-raises-85m-series-c-at-750m-valuation-carbon-accounting",
     "dovu_relevance": 0.82,
     "competitive_threat": 0.9,
     "partnership_opportunity": 0.4
