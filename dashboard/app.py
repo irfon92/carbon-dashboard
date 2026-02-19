@@ -65,7 +65,19 @@ class DashboardData:
         funding = self.load_latest_funding()
         
         today = datetime.now().date()
+        six_months_ago = today - timedelta(days=180)  # 6 months filter
         week_ago = today - timedelta(days=7)
+        
+        # Filter all data to last 6 months
+        commitments = [
+            c for c in commitments 
+            if datetime.strptime(c['announcement_date'], '%Y-%m-%d').date() >= six_months_ago
+        ]
+        
+        funding = [
+            f for f in funding
+            if datetime.strptime(f['announcement_date'], '%Y-%m-%d').date() >= six_months_ago
+        ]
         
         recent_commitments = [
             c for c in commitments 
@@ -132,14 +144,14 @@ def api_commitments():
     """API endpoint for commitment data - OPEN ACCESS"""
     commitments = dashboard_data.load_latest_commitments()
     
-    # Apply filters with safe defaults
+    # Apply filters with safe defaults - 6 months max
     try:
         min_relevance = max(0, min(1, float(request.args.get('min_relevance', 0))))
-        days_back = max(1, min(365, int(request.args.get('days', 30))))
+        days_back = max(1, min(180, int(request.args.get('days', 180))))  # Default and max: 6 months
         commitment_type = request.args.get('type', '')
     except:
         min_relevance = 0
-        days_back = 30
+        days_back = 180  # Default to 6 months
         commitment_type = ''
     
     # Filter by date
@@ -172,16 +184,16 @@ def api_funding():
     """API endpoint for funding data - OPEN ACCESS"""
     funding = dashboard_data.load_latest_funding()
     
-    # Apply filters with safe defaults
+    # Apply filters with safe defaults - 6 months max
     try:
         min_relevance = max(0, min(1, float(request.args.get('min_relevance', 0))))
-        days_back = max(1, min(365, int(request.args.get('days', 30))))
+        days_back = max(1, min(180, int(request.args.get('days', 180))))  # Default and max: 6 months
         sector = request.args.get('sector', '')
         min_threat = max(0, min(1, float(request.args.get('min_threat', 0))))
         min_partnership = max(0, min(1, float(request.args.get('min_partnership', 0))))
     except:
         min_relevance = 0
-        days_back = 30
+        days_back = 180  # Default to 6 months
         sector = ''
         min_threat = 0
         min_partnership = 0

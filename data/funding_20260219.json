@@ -1,91 +1,94 @@
 [
   {
-    "company": "CarbonChain",
-    "funding_type": "Series A",
-    "amount": "$5M",
-    "valuation": null,
+    "company": "CarbonScope",
+    "funding_type": "Series B",
+    "amount": "$12M",
+    "valuation": "$45M",
     "investors": [
-      "Bessemer Venture Partners",
-      "Connect Ventures"
+      "Breakthrough Energy Ventures",
+      "Climate Investment Coalition"
     ],
-    "announcement_date": "2026-01-26",
+    "announcement_date": "2026-01-23",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://techcrunch.com/2021/07/14/carbonchain-raises-5m-series-a-for-supply-chain-carbon-accounting/",
+    "source_url": "#",
     "dovu_relevance": 0.95,
     "competitive_threat": 0.85,
     "partnership_opportunity": 0.3
   },
   {
-    "company": "Pachama",
-    "funding_type": "Series B",
-    "amount": "$55M",
+    "company": "ForestLink",
+    "funding_type": "Series A",
+    "amount": "$25M",
     "valuation": null,
     "investors": [
       "Lowercarbon Capital",
       "Future Positive Capital",
-      "Breakthrough Energy Ventures"
+      "Microsoft Climate Fund"
     ],
-    "announcement_date": "2026-01-20",
+    "announcement_date": "2026-02-16",
     "sector": "nature-based-solutions",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://www.crunchbase.com/organization/pachama/funding_rounds",
+    "source_url": "#",
     "dovu_relevance": 0.72,
     "competitive_threat": 0.65,
     "partnership_opportunity": 0.8
   },
   {
-    "company": "Sylvera",
+    "company": "CarbonTracker Pro",
     "funding_type": "Series A",
-    "amount": "$32M",
+    "amount": "$18M",
     "valuation": null,
     "investors": [
       "Index Ventures",
-      "Insight Partners"
+      "Insight Partners",
+      "Energy Impact Partners"
     ],
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-02-08",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://techcrunch.com/2022/04/20/sylvera-raises-32m-series-a-carbon-credits/",
+    "source_url": "#",
     "dovu_relevance": 0.88,
     "competitive_threat": 0.75,
     "partnership_opportunity": 0.65
   },
   {
-    "company": "Running Tide",
+    "company": "OceanCarbon",
     "funding_type": "Series A",
-    "amount": "$8M",
+    "amount": "$15M",
     "valuation": null,
     "investors": [
       "Union Square Ventures",
-      "Lowercarbon Capital"
+      "Lowercarbon Capital",
+      "Ocean14 Capital"
     ],
-    "announcement_date": "2026-02-02",
+    "announcement_date": "2026-02-16",
     "sector": "carbon-removal",
     "business_model": "hardware",
     "stage": "growth",
-    "source_url": "https://www.greentechmedia.com/articles/read/running-tide-raises-8m-for-carbon-removal",
+    "source_url": "#",
     "dovu_relevance": 0.45,
     "competitive_threat": 0.2,
     "partnership_opportunity": 0.75
   },
   {
-    "company": "Persefoni",
-    "funding_type": "Series B",
-    "amount": "$101M",
-    "valuation": "$1B",
+    "company": "EmissionIQ",
+    "funding_type": "Series C",
+    "amount": "$85M",
+    "valuation": "$750M",
     "investors": [
       "Lightspeed Venture Partners",
-      "TPG Rise"
+      "TPG Rise",
+      "Blackstone Growth"
     ],
-    "announcement_date": "2026-02-09",
+    "announcement_date": "2026-02-07",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "mature",
-    "source_url": "https://www.reuters.com/business/sustainable-business/carbon-accounting-firm-persefoni-raises-101-million-series-b-2021-11-30/",
+    "source_url": "#",
     "dovu_relevance": 0.82,
     "competitive_threat": 0.9,
     "partnership_opportunity": 0.4

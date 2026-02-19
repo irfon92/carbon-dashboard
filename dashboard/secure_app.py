@@ -58,8 +58,8 @@ def validate_query_params():
         min_relevance = float(request.args.get('min_relevance', 0))
         min_relevance = max(0.0, min(1.0, min_relevance))
         
-        days_back = int(request.args.get('days', 30))
-        days_back = max(1, min(365, days_back))  # Limit to 1 year max
+        days_back = int(request.args.get('days', 180))
+        days_back = max(1, min(180, days_back))  # Limit to 6 months max
         
         commitment_type = request.args.get('type', '')
         # Sanitize commitment type
