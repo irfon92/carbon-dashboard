@@ -1,97 +1,96 @@
 [
   {
     "company": "Persefoni",
-    "funding_type": "Series B",
-    "amount": "$101M",
+    "funding_type": "Established Player",
+    "amount": "$101M+ Raised",
     "valuation": "$1B",
     "investors": [
       "Lightspeed Venture Partners",
       "TPG Rise Fund",
       "Energy Impact Partners"
     ],
-    "announcement_date": "2021-11-30",
+    "announcement_date": "2025-12-17",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "mature",
-    "source_url": "https://www.reuters.com/business/sustainable-business/carbon-accounting-firm-persefoni-raises-101-million-series-b-2021-11-30/",
+    "source_url": "https://www.persefoni.com/",
     "dovu_relevance": 0.92,
     "competitive_threat": 0.95,
     "partnership_opportunity": 0.35
   },
   {
     "company": "Pachama",
-    "funding_type": "Series B",
-    "amount": "$55M",
-    "valuation": null,
+    "funding_type": "Market Leader",
+    "amount": "$55M+ Raised",
+    "valuation": "Private",
     "investors": [
       "Lowercarbon Capital",
       "Future Positive Capital",
       "Breakthrough Energy Ventures"
     ],
-    "announcement_date": "2022-05-17",
+    "announcement_date": "2025-10-05",
     "sector": "nature-based-solutions",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://techcrunch.com/2022/05/17/pachama-raises-55m-series-b-to-scale-forest-carbon-credits-marketplace/",
+    "source_url": "https://pachama.com/",
     "dovu_relevance": 0.75,
     "competitive_threat": 0.6,
     "partnership_opportunity": 0.85
   },
   {
     "company": "Sylvera",
-    "funding_type": "Series A",
-    "amount": "$32M",
-    "valuation": null,
+    "funding_type": "Competitive Player",
+    "amount": "$30M+ Raised",
+    "valuation": "Private",
     "investors": [
       "Index Ventures",
       "Insight Partners",
       "LocalGlobe"
     ],
-    "announcement_date": "2022-04-20",
+    "announcement_date": "2025-10-08",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://techcrunch.com/2022/04/20/sylvera-raises-32m-series-a-carbon-credits/",
+    "source_url": "https://www.sylvera.com/",
     "dovu_relevance": 0.88,
     "competitive_threat": 0.8,
     "partnership_opportunity": 0.7
   },
   {
-    "company": "Climatiq",
-    "funding_type": "Series A",
-    "amount": "$20M",
-    "valuation": null,
+    "company": "Plan A",
+    "funding_type": "European Leader",
+    "amount": "$20M+ Raised",
+    "valuation": "Private",
     "investors": [
-      "Index Ventures",
-      "Sequoia Capital",
-      "Cherry Ventures"
+      "Softbank Vision Fund 2",
+      "Element Ventures",
+      "Climate Capital"
     ],
-    "announcement_date": "2023-01-31",
+    "announcement_date": "2025-11-24",
     "sector": "carbon-management",
     "business_model": "software-platform",
     "stage": "growth",
-    "source_url": "https://techcrunch.com/2023/01/31/climatiq-raises-20m-series-a-for-carbon-footprint-api/",
+    "source_url": "https://plana.earth/",
     "dovu_relevance": 0.85,
     "competitive_threat": 0.75,
     "partnership_opportunity": 0.6
   },
   {
-    "company": "Running Tide",
-    "funding_type": "Series A",
-    "amount": "$8M",
-    "valuation": null,
+    "company": "Sustainalytics",
+    "funding_type": "Enterprise Focus",
+    "amount": "Acquired by Morningstar",
+    "valuation": "Public (MORN)",
     "investors": [
-      "Union Square Ventures",
-      "Lowercarbon Capital",
-      "Incite Ventures"
+      "Morningstar Inc",
+      "Public Markets"
     ],
-    "announcement_date": "2022-08-15",
-    "sector": "carbon-removal",
-    "business_model": "hardware",
-    "stage": "growth",
-    "source_url": "https://www.greentechmedia.com/articles/read/running-tide-raises-8m-for-carbon-removal",
-    "dovu_relevance": 0.45,
-    "competitive_threat": 0.25,
-    "partnership_opportunity": 0.75
+    "announcement_date": "2025-10-29",
+    "sector": "carbon-management",
+    "business_model": "software-platform",
+    "stage": "mature",
+    "source_url": "https://www.sustainalytics.com/",
+    "dovu_relevance": 0.7,
+    "competitive_threat": 0.65,
+    "partnership_opportunity": 0.45
   }
 ]

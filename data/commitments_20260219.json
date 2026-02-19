@@ -1,7 +1,7 @@
 [
   {
     "company": "Microsoft Corporation",
-    "announcement_date": "2026-02-08",
+    "announcement_date": "2026-02-17",
     "commitment_type": "carbon-negative",
     "target_year": 2030,
     "baseline_year": null,
@@ -13,7 +13,7 @@
   },
   {
     "company": "Amazon.com Inc",
-    "announcement_date": "2026-02-01",
+    "announcement_date": "2026-01-26",
     "commitment_type": "net-zero",
     "target_year": 2040,
     "baseline_year": null,
@@ -25,7 +25,7 @@
   },
   {
     "company": "Walmart Inc",
-    "announcement_date": "2026-02-14",
+    "announcement_date": "2026-01-24",
     "commitment_type": "scope-reductions",
     "target_year": 2030,
     "baseline_year": null,
@@ -37,7 +37,7 @@
   },
   {
     "company": "Unilever PLC",
-    "announcement_date": "2026-02-12",
+    "announcement_date": "2026-01-31",
     "commitment_type": "net-zero",
     "target_year": 2039,
     "baseline_year": null,
@@ -49,7 +49,7 @@
   },
   {
     "company": "IKEA Group",
-    "announcement_date": "2026-02-12",
+    "announcement_date": "2026-01-24",
     "commitment_type": "carbon-negative",
     "target_year": 2030,
     "baseline_year": null,
