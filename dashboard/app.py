@@ -65,18 +65,18 @@ class DashboardData:
         funding = self.load_latest_funding()
         
         today = datetime.now().date()
-        six_months_ago = today - timedelta(days=180)  # 6 months filter
+        three_years_ago = today - timedelta(days=1095)  # 3 years for historical funding data
         week_ago = today - timedelta(days=7)
         
-        # Filter all data to last 6 months
+        # Filter commitments to show recent developments, funding to show historical context
         commitments = [
             c for c in commitments 
-            if datetime.strptime(c['announcement_date'], '%Y-%m-%d').date() >= six_months_ago
+            if datetime.strptime(c['announcement_date'], '%Y-%m-%d').date() >= three_years_ago
         ]
         
         funding = [
             f for f in funding
-            if datetime.strptime(f['announcement_date'], '%Y-%m-%d').date() >= six_months_ago
+            if datetime.strptime(f['announcement_date'], '%Y-%m-%d').date() >= three_years_ago
         ]
         
         recent_commitments = [
@@ -144,14 +144,14 @@ def api_commitments():
     """API endpoint for commitment data - OPEN ACCESS"""
     commitments = dashboard_data.load_latest_commitments()
     
-    # Apply filters with safe defaults - 6 months max
+    # Apply filters with safe defaults - 3 years max for real historical data
     try:
         min_relevance = max(0, min(1, float(request.args.get('min_relevance', 0))))
-        days_back = max(1, min(180, int(request.args.get('days', 180))))  # Default and max: 6 months
+        days_back = max(1, min(1095, int(request.args.get('days', 1095))))  # Default and max: 3 years
         commitment_type = request.args.get('type', '')
     except:
         min_relevance = 0
-        days_back = 180  # Default to 6 months
+        days_back = 1095  # Default to 3 years for historical context
         commitment_type = ''
     
     # Filter by date
@@ -184,16 +184,16 @@ def api_funding():
     """API endpoint for funding data - OPEN ACCESS"""
     funding = dashboard_data.load_latest_funding()
     
-    # Apply filters with safe defaults - 6 months max
+    # Apply filters with safe defaults - 3 years max for real historical data
     try:
         min_relevance = max(0, min(1, float(request.args.get('min_relevance', 0))))
-        days_back = max(1, min(180, int(request.args.get('days', 180))))  # Default and max: 6 months
+        days_back = max(1, min(1095, int(request.args.get('days', 1095))))  # Default and max: 3 years
         sector = request.args.get('sector', '')
         min_threat = max(0, min(1, float(request.args.get('min_threat', 0))))
         min_partnership = max(0, min(1, float(request.args.get('min_partnership', 0))))
     except:
         min_relevance = 0
-        days_back = 180  # Default to 6 months
+        days_back = 1095  # Default to 3 years for historical context
         sector = ''
         min_threat = 0
         min_partnership = 0

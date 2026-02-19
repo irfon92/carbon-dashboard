@@ -322,7 +322,7 @@
             const relevanceFilter = document.getElementById('commitment-relevance').value;
             
             const params = new URLSearchParams({
-                days: '30',
+                days: '1095',
                 min_relevance: relevanceFilter,
                 ...(typeFilter && { type: typeFilter })
             });
@@ -373,7 +373,7 @@
             const relevanceFilter = document.getElementById('funding-relevance').value;
             
             const params = new URLSearchParams({
-                days: '30',
+                days: '1095',
                 min_relevance: relevanceFilter,
                 ...(sectorFilter && { sector: sectorFilter })
             });
@@ -394,7 +394,7 @@
                                 <div class="flex-1">
                                     <div class="flex items-center gap-2">
                                         <h4 class="text-sm font-medium text-gray-900">${event.company}</h4>
-                                        ${event.source_url && event.source_url.trim() && !event.source_url.includes('example.com') && !event.source_url.includes('#') ? 
+                                        ${event.source_url && event.source_url.trim() && event.source_url !== '' && !event.source_url.includes('example.com') && !event.source_url.includes('#') ? 
                                             `<a href="${event.source_url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-xs">🔗 Source</a>` : 
                                             ''
                                         }
