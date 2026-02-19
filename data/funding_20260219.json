@@ -1,0 +1,93 @@
+[
+  {
+    "company": "CarbonChain",
+    "funding_type": "Series A",
+    "amount": "$5M",
+    "valuation": null,
+    "investors": [
+      "Bessemer Venture Partners",
+      "Connect Ventures"
+    ],
+    "announcement_date": "2026-02-09",
+    "sector": "carbon-management",
+    "business_model": "software-platform",
+    "stage": "growth",
+    "source_url": "https://example.com/funding/1",
+    "dovu_relevance": 0.95,
+    "competitive_threat": 0.85,
+    "partnership_opportunity": 0.3
+  },
+  {
+    "company": "Pachama",
+    "funding_type": "Series B",
+    "amount": "$55M",
+    "valuation": null,
+    "investors": [
+      "Lowercarbon Capital",
+      "Future Positive Capital",
+      "Breakthrough Energy Ventures"
+    ],
+    "announcement_date": "2026-02-11",
+    "sector": "nature-based-solutions",
+    "business_model": "software-platform",
+    "stage": "growth",
+    "source_url": "https://example.com/funding/2",
+    "dovu_relevance": 0.72,
+    "competitive_threat": 0.65,
+    "partnership_opportunity": 0.8
+  },
+  {
+    "company": "Sylvera",
+    "funding_type": "Series A",
+    "amount": "$32M",
+    "valuation": null,
+    "investors": [
+      "Index Ventures",
+      "Insight Partners"
+    ],
+    "announcement_date": "2026-01-25",
+    "sector": "carbon-management",
+    "business_model": "software-platform",
+    "stage": "growth",
+    "source_url": "https://example.com/funding/3",
+    "dovu_relevance": 0.88,
+    "competitive_threat": 0.75,
+    "partnership_opportunity": 0.65
+  },
+  {
+    "company": "Running Tide",
+    "funding_type": "Series A",
+    "amount": "$8M",
+    "valuation": null,
+    "investors": [
+      "Union Square Ventures",
+      "Lowercarbon Capital"
+    ],
+    "announcement_date": "2026-01-24",
+    "sector": "carbon-removal",
+    "business_model": "hardware",
+    "stage": "growth",
+    "source_url": "https://example.com/funding/4",
+    "dovu_relevance": 0.45,
+    "competitive_threat": 0.2,
+    "partnership_opportunity": 0.75
+  },
+  {
+    "company": "Persefoni",
+    "funding_type": "Series B",
+    "amount": "$101M",
+    "valuation": "$1B",
+    "investors": [
+      "Lightspeed Venture Partners",
+      "TPG Rise"
+    ],
+    "announcement_date": "2026-01-26",
+    "sector": "carbon-management",
+    "business_model": "software-platform",
+    "stage": "mature",
+    "source_url": "https://example.com/funding/5",
+    "dovu_relevance": 0.82,
+    "competitive_threat": 0.9,
+    "partnership_opportunity": 0.4
+  }
+]

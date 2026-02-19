@@ -1,0 +1,1 @@
+web: python create_demo_data.py && cd dashboard && python app.py

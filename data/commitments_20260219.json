@@ -1,0 +1,62 @@
+[
+  {
+    "company": "Microsoft Corporation",
+    "announcement_date": "2026-02-14",
+    "commitment_type": "carbon-negative",
+    "target_year": 2030,
+    "baseline_year": null,
+    "commitment_details": "Microsoft commits to be carbon negative by 2030 and remove all historical emissions by 2050",
+    "carbon_volume_mentioned": "16 million tons CO2e annually",
+    "source_url": "https://example.com/news/1",
+    "relevance_score": 0.85,
+    "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution"
+  },
+  {
+    "company": "Amazon.com Inc",
+    "announcement_date": "2026-01-21",
+    "commitment_type": "net-zero",
+    "target_year": 2040,
+    "baseline_year": null,
+    "commitment_details": "The Climate Pledge: net-zero carbon emissions by 2040, 10 years ahead of Paris Agreement",
+    "carbon_volume_mentioned": "44 million tons CO2e baseline",
+    "source_url": "https://example.com/news/2",
+    "relevance_score": 0.92,
+    "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management"
+  },
+  {
+    "company": "Walmart Inc",
+    "announcement_date": "2026-01-29",
+    "commitment_type": "scope-reductions",
+    "target_year": 2030,
+    "baseline_year": null,
+    "commitment_details": "Reduce Scope 1 and 2 emissions by 35% and Scope 3 emissions by 1 gigaton by 2030",
+    "carbon_volume_mentioned": "1 gigaton CO2e scope 3 reductions",
+    "source_url": "https://example.com/news/3",
+    "relevance_score": 0.78,
+    "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution"
+  },
+  {
+    "company": "Unilever PLC",
+    "announcement_date": "2026-02-13",
+    "commitment_type": "net-zero",
+    "target_year": 2039,
+    "baseline_year": null,
+    "commitment_details": "Achieve net-zero emissions across value chain by 2039",
+    "carbon_volume_mentioned": null,
+    "source_url": "https://example.com/news/4",
+    "relevance_score": 0.65,
+    "dovu_opportunity": "Carbon Credit Procurement - Registry integration and verification"
+  },
+  {
+    "company": "IKEA Group",
+    "announcement_date": "2026-01-30",
+    "commitment_type": "carbon-negative",
+    "target_year": 2030,
+    "baseline_year": null,
+    "commitment_details": "Become climate positive by 2030 by reducing more greenhouse gases than entire value chain emits",
+    "carbon_volume_mentioned": null,
+    "source_url": "https://example.com/news/5",
+    "relevance_score": 0.71,
+    "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "HEROKUISH"
+  },
+  "deploy": {
+    "startCommand": "python create_demo_data.py && cd dashboard && python app.py",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}
