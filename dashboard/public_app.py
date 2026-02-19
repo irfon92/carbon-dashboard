@@ -241,7 +241,8 @@ def api_alerts():
             'title': f"🎯 High-Value Commitment: {commitment['company']}",
             'description': f"{commitment['commitment_type']} target, relevance score {commitment['relevance_score']:.2f}",
             'action': commitment['dovu_opportunity'],
-            'date': commitment['announcement_date']
+            'date': commitment['announcement_date'],
+            'source_url': commitment.get('source_url', '')
         })
     
     # Competitive threats
@@ -253,7 +254,8 @@ def api_alerts():
             'title': f"⚠️ Competitive Threat: {threat['company']}",
             'description': f"{threat['funding_type']} {threat.get('amount', '')} - threat score {threat.get('competitive_threat', 0):.2f}",
             'action': "Monitor product development and market positioning",
-            'date': threat['announcement_date']
+            'date': threat['announcement_date'],
+            'source_url': threat.get('source_url', '')
         })
     
     # Partnership opportunities
@@ -265,7 +267,8 @@ def api_alerts():
             'title': f"🤝 Partnership Opportunity: {opp['company']}",
             'description': f"{opp['business_model']} - partnership score {opp.get('partnership_opportunity', 0):.2f}",
             'action': "Evaluate integration and partnership potential",
-            'date': opp['announcement_date']
+            'date': opp['announcement_date'],
+            'source_url': opp.get('source_url', '')
         })
     
     # Sort by date (newest first)

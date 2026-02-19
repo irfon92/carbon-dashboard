@@ -372,7 +372,8 @@ def api_alerts():
                         'title': f"🎯 High-Value Commitment: {commitment.get('company', 'Unknown')}",
                         'description': f"{commitment.get('commitment_type', 'Unknown')} target, relevance score {commitment['relevance_score']:.2f}",
                         'action': commitment.get('dovu_opportunity', 'Evaluate opportunity'),
-                        'date': commitment['announcement_date']
+                        'date': commitment['announcement_date'],
+                        'source_url': commitment.get('source_url', '')
                     })
             except (KeyError, ValueError, TypeError):
                 continue
@@ -389,7 +390,8 @@ def api_alerts():
                         'title': f"⚠️ Competitive Threat: {threat.get('company', 'Unknown')}",
                         'description': f"{threat.get('funding_type', 'Funding')} {threat.get('amount', '')} - threat score {threat['competitive_threat']:.2f}",
                         'action': "Monitor product development and market positioning",
-                        'date': threat.get('announcement_date', '')
+                        'date': threat.get('announcement_date', ''),
+                        'source_url': threat.get('source_url', '')
                     })
             except (KeyError, ValueError, TypeError):
                 continue
@@ -406,7 +408,8 @@ def api_alerts():
                         'title': f"🤝 Partnership Opportunity: {opp.get('company', 'Unknown')}",
                         'description': f"{opp.get('business_model', 'Unknown model')} - partnership score {opp['partnership_opportunity']:.2f}",
                         'action': "Evaluate integration and partnership potential",
-                        'date': opp.get('announcement_date', '')
+                        'date': opp.get('announcement_date', ''),
+                        'source_url': opp.get('source_url', '')
                     })
             except (KeyError, ValueError, TypeError):
                 continue
