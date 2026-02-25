@@ -60,7 +60,44 @@ class DashboardData:
             print(f"Error loading funding data: {e}")
             return []
     
+    def load_agent_intelligence(self) -> Dict[str, Any]:
+        """Load data from agent intelligence system"""
+        try:
+            intelligence_file = os.path.join(self.data_dir, "carbon_intelligence.json")
+            if os.path.exists(intelligence_file):
+                with open(intelligence_file, 'r') as f:
+                    data = json.load(f)
+                    print(f"✅ Loaded agent intelligence data from {intelligence_file}")
+                    return data
+            else:
+                print(f"⚠️ No agent intelligence file found at {intelligence_file}")
+                return {}
+        except Exception as e:
+            print(f"❌ Error loading agent intelligence: {e}")
+            return {}
+    
     def get_dashboard_summary(self) -> Dict[str, Any]:
+        # Try to load agent intelligence first
+        agent_data = self.load_agent_intelligence()
+        
+        if agent_data and 'summary' in agent_data:
+            # Use agent intelligence if available
+            print("📊 Using agent intelligence data")
+            summary = agent_data['summary']
+            commitments = agent_data.get('corporate_commitments', [])
+            funding = agent_data.get('competitive_landscape', [])
+            
+            return {
+                'high_relevance_prospects': summary.get('high_relevance_prospects', 0),
+                'companies_tracked': summary.get('companies_tracked', 0), 
+                'competitive_threats': summary.get('competitive_threats', 0),
+                'partnership_opportunities': summary.get('partnership_opportunities', 0),
+                'data_source': 'agent_intelligence',
+                'last_updated': summary.get('last_updated', datetime.now().isoformat())
+            }
+        
+        # Fallback to scraped data
+        print("📊 Using scraped/demo data")
         commitments = self.load_latest_commitments()
         funding = self.load_latest_funding()
         

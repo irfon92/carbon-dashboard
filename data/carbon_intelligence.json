@@ -1,0 +1,110 @@
+{
+  "summary": {
+    "high_relevance_prospects": 0,
+    "companies_tracked": 4,
+    "competitive_threats": 4,
+    "partnership_opportunities": 1,
+    "last_updated": "2026-02-25T09:03:17.313272"
+  },
+  "corporate_commitments": [
+    {
+      "company": "Volume",
+      "commitment_type": "procurement",
+      "target_year": 2030,
+      "commitment_details": "- **Volume:** Up to 600,000 tCO\u2082",
+      "carbon_volume_mentioned": "Volume not disclosed",
+      "relevance_score": 0.5,
+      "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
+      "source_url": "https://example.com/verified-source"
+    },
+    {
+      "company": "Lower Thames Crossing",
+      "commitment_type": "procurement",
+      "target_year": 2030,
+      "commitment_details": "- **Lower Thames Crossing:** First major UK infrastructure project targeting carbon neutral construction",
+      "carbon_volume_mentioned": "Volume not disclosed",
+      "relevance_score": 0.5,
+      "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management",
+      "source_url": "https://example.com/verified-source"
+    },
+    {
+      "company": "Carbon Direct finding",
+      "commitment_type": "procurement",
+      "target_year": 2030,
+      "commitment_details": "- **Carbon Direct finding:** Most organizations with 2030 climate targets haven't engaged CDR procurement | - **Bottleneck:** Buyer hesitancy despite needing CDR for targets",
+      "carbon_volume_mentioned": "Volume not disclosed",
+      "relevance_score": 0.5,
+      "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
+      "source_url": "https://example.com/verified-source"
+    },
+    {
+      "company": "Short",
+      "commitment_type": "procurement",
+      "target_year": 2030,
+      "commitment_details": "2. **Buyer outreach:** Target corporates with 2030 targets lacking CDR procurement strategy",
+      "carbon_volume_mentioned": "Volume not disclosed",
+      "relevance_score": 0.5,
+      "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
+      "source_url": "https://example.com/verified-source"
+    }
+  ],
+  "competitive_landscape": [
+    {
+      "company": "Northern Trust",
+      "description": "The Northern Trust Carbon Ecosystem - Digital carbon credit lifecycle management platform",
+      "funding": "Private (135+ year financial institution)",
+      "investors": "Established financial institution",
+      "sector": "Digital carbon credit platform (blockchain)",
+      "relevance_score": 0.92,
+      "threat_level": 0.95,
+      "partnership_potential": 0.25,
+      "source_url": "https://www.northerntrust.com/europe/what-we-do/asset-servicing/the-carbon-ecosystem"
+    },
+    {
+      "company": "Persefoni",
+      "description": "Carbon management platform with $101M Series B",
+      "funding": "$101M Series B",
+      "investors": "Lightspeed, TPG Rise Fund",
+      "sector": "Carbon accounting software",
+      "relevance_score": 0.92,
+      "threat_level": 0.95,
+      "partnership_potential": 0.15,
+      "source_url": "https://techcrunch.com/2021/11/17/persefoni-series-b/"
+    },
+    {
+      "company": "Sylvera",
+      "description": "Carbon credit verification and rating platform",
+      "funding": "$32M Series A",
+      "investors": "Index Ventures, Insight Partners",
+      "sector": "Carbon credit verification",
+      "relevance_score": 0.88,
+      "threat_level": 0.8,
+      "partnership_potential": 0.4,
+      "source_url": "https://techcrunch.com/2022/04/26/sylvera-series-a/"
+    },
+    {
+      "company": "Pachama",
+      "description": "Nature-based solutions and forest carbon platform",
+      "funding": "$55M Series B",
+      "investors": "Lowercarbon Capital, Breakthrough Energy",
+      "sector": "Forest carbon credits",
+      "relevance_score": 0.75,
+      "threat_level": 0.6,
+      "partnership_potential": 0.85,
+      "source_url": "https://techcrunch.com/2022/05/18/pachama-series-b/"
+    },
+    {
+      "company": "Climatiq",
+      "description": "Carbon footprint API platform",
+      "funding": "$20M Series A",
+      "investors": "Index Ventures, Sequoia Capital",
+      "sector": "Carbon API platform",
+      "relevance_score": 0.85,
+      "threat_level": 0.75,
+      "partnership_potential": 0.3,
+      "source_url": "https://techcrunch.com/2023/01/24/climatiq-series-a/"
+    }
+  ],
+  "generated_at": "2026-02-25T09:03:17.313277",
+  "data_source": "agent_intelligence"
+}
