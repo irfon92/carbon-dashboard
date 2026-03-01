@@ -1,50 +1,60 @@
 {
   "summary": {
-    "high_relevance_prospects": 0,
-    "companies_tracked": 4,
+    "high_relevance_prospects": 4,
+    "companies_tracked": 5,
     "competitive_threats": 4,
     "partnership_opportunities": 1,
-    "last_updated": "2026-02-25T09:03:17.313272"
+    "last_updated": "2026-03-01T09:10:05.596868"
   },
   "corporate_commitments": [
     {
-      "company": "Volume",
+      "company": "F&B RFP Status Update",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "- **Volume:** Up to 600,000 tCO\u2082",
-      "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.5,
+      "commitment_details": "- **Volume**: 600K tCO\u2082 nature-based removals",
+      "carbon_volume_mentioned": "600K tCO\u2082",
+      "relevance_score": 0.7,
       "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
       "source_url": "https://example.com/verified-source"
     },
     {
-      "company": "Lower Thames Crossing",
+      "company": "CBAM Full Implementation Impact",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "- **Lower Thames Crossing:** First major UK infrastructure project targeting carbon neutral construction",
+      "commitment_details": "- **DOVU Action**: Target CBAM-impacted exporters with measurement + offset solutions",
       "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.5,
-      "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management",
+      "relevance_score": 0.65,
+      "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
       "source_url": "https://example.com/verified-source"
     },
     {
-      "company": "Carbon Direct finding",
+      "company": "Removes regulatory uncertainty for corporate buyers",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "- **Carbon Direct finding:** Most organizations with 2030 climate targets haven't engaged CDR procurement | - **Bottleneck:** Buyer hesitancy despite needing CDR for targets",
+      "commitment_details": "- **Sector Opportunity**: All sectors with 2030 targets and procurement gaps",
       "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.5,
-      "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
+      "relevance_score": 0.6,
+      "dovu_opportunity": "Registry Integration & Carbon Credit Verification",
       "source_url": "https://example.com/verified-source"
     },
     {
-      "company": "Short",
+      "company": "Opportunity",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "2. **Buyer outreach:** Target corporates with 2030 targets lacking CDR procurement strategy",
+      "commitment_details": "- **Scale Context**: CDR at 8Mt (0.4% of 2Gt 2050 target) \u2014 massive growth needed | - **DOVU Action**: Target 2030 net-zero corporates highlighting Microsoft dependency risk",
       "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.5,
-      "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
+      "relevance_score": 0.65,
+      "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
+      "source_url": "https://example.com/verified-source"
+    },
+    {
+      "company": "Focus on EU",
+      "commitment_type": "procurement",
+      "target_year": 2030,
+      "commitment_details": "# 3. **CBAM Pressure Point Targeting**",
+      "carbon_volume_mentioned": "Volume not disclosed",
+      "relevance_score": 0.65,
+      "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
       "source_url": "https://example.com/verified-source"
     }
   ],
@@ -105,6 +115,6 @@
       "source_url": "https://techcrunch.com/2023/01/24/climatiq-series-a/"
     }
   ],
-  "generated_at": "2026-02-25T09:03:17.313277",
+  "generated_at": "2026-03-01T09:10:05.596874",
   "data_source": "agent_intelligence"
 }
