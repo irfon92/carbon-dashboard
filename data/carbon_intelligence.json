@@ -1,60 +1,40 @@
 {
   "summary": {
-    "high_relevance_prospects": 4,
-    "companies_tracked": 5,
+    "high_relevance_prospects": 0,
+    "companies_tracked": 3,
     "competitive_threats": 4,
     "partnership_opportunities": 1,
-    "last_updated": "2026-03-01T09:10:05.596868"
+    "last_updated": "2026-03-04T09:10:07.965124"
   },
   "corporate_commitments": [
     {
-      "company": "F&B RFP Status Update",
+      "company": "Buyer",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "- **Volume**: 600K tCO\u2082 nature-based removals",
-      "carbon_volume_mentioned": "600K tCO\u2082",
-      "relevance_score": 0.7,
+      "commitment_details": "- **Volume:** Up to 600,000 tCO\u2082",
+      "carbon_volume_mentioned": "Volume not disclosed",
+      "relevance_score": 0.5,
       "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
       "source_url": "https://example.com/verified-source"
     },
     {
-      "company": "CBAM Full Implementation Impact",
+      "company": "Status",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "- **DOVU Action**: Target CBAM-impacted exporters with measurement + offset solutions",
+      "commitment_details": "- **Status:** Most 2030 target organizations still haven't engaged CDR procurement | - **Scale gap:** 8Mt current vs 2Gt 2050 target (0.4% progress)",
       "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.65,
-      "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
+      "relevance_score": 0.5,
+      "dovu_opportunity": "Carbon Removal Portfolio Management & Tokenization",
       "source_url": "https://example.com/verified-source"
     },
     {
-      "company": "Removes regulatory uncertainty for corporate buyers",
+      "company": "Japan GX",
       "commitment_type": "procurement",
       "target_year": 2030,
-      "commitment_details": "- **Sector Opportunity**: All sectors with 2030 targets and procurement gaps",
+      "commitment_details": "**MODERATE FRESH VALUE** \u2014 Today's scan delivered significant institutional market intelligence ($907B trading volume confirmation) and Japanese industrial demand expansion (ENEOS DAC investment pattern). UN Article 6.4 launch creates competitive positioning opportunity through quality differentiation. Structural demand drivers (CORSIA, Japan GX-ETS, EU tightening) remain intact.",
       "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.6,
-      "dovu_opportunity": "Registry Integration & Carbon Credit Verification",
-      "source_url": "https://example.com/verified-source"
-    },
-    {
-      "company": "Opportunity",
-      "commitment_type": "procurement",
-      "target_year": 2030,
-      "commitment_details": "- **Scale Context**: CDR at 8Mt (0.4% of 2Gt 2050 target) \u2014 massive growth needed | - **DOVU Action**: Target 2030 net-zero corporates highlighting Microsoft dependency risk",
-      "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.65,
-      "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
-      "source_url": "https://example.com/verified-source"
-    },
-    {
-      "company": "Focus on EU",
-      "commitment_type": "procurement",
-      "target_year": 2030,
-      "commitment_details": "# 3. **CBAM Pressure Point Targeting**",
-      "carbon_volume_mentioned": "Volume not disclosed",
-      "relevance_score": 0.65,
-      "dovu_opportunity": "Supply Chain Carbon Management - Full tokenization and tracking solution",
+      "relevance_score": 0.5,
+      "dovu_opportunity": "Comprehensive Decarbonization Platform - End-to-end carbon management",
       "source_url": "https://example.com/verified-source"
     }
   ],
@@ -115,6 +95,6 @@
       "source_url": "https://techcrunch.com/2023/01/24/climatiq-series-a/"
     }
   ],
-  "generated_at": "2026-03-01T09:10:05.596874",
+  "generated_at": "2026-03-04T09:10:07.965130",
   "data_source": "agent_intelligence"
 }
